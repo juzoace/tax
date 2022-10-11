@@ -1,0 +1,128 @@
+.componentBorder {
+    background-color: #060809;    align-items: center;
+    height: 680px;
+}
+
+.container {
+    display: flex;
+    padding-top: 200px;
+    
+    /* position: relative; */
+}
+
+.container-item {
+    
+    color: #ECF1F0;
+    width: 570px;
+    padding-left: 70px;
+    
+}
+
+h1 {
+    /* font-weight: 400; */
+    font-size: 46px;
+    line-height: 64px;
+}
+
+p {
+    
+}
+
+#container-item-button {
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 20px;
+    padding: 10px 20px ;
+    background-color:  #048002;
+    text-decoration: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+}
+
+#individualCircleContainer {
+    box-sizing: border-box;
+    position: absolute;
+}
+
+.div1 {
+    z-index: 4;
+    top: 170px;
+    right: 400px 
+} 
+.div2 {
+    z-index: 5;
+    right: 15px
+}
+
+.div3 {
+    z-index: 3;
+    top: 160px;
+    right: 70px;
+}
+.div4 {
+    z-index: 2;
+    top: 150px;
+    right: 420px
+    
+}
+
+.div5 {
+    z-index: 4;
+    bottom: -70px;
+    right: 160px;
+
+}
+
+.div12 {
+    z-index: 1;
+    bottom: 90px;
+    right: 400px;
+}
+
+/* For 480 Resolution */  
+@media only screen   
+and (min-device-width : 320px)   
+and (max-device-width : 480px)  
+{ 
+    .container {
+        display: flex;
+        /* padding-top: 200px; */
+        flex-direction: column;
+    }
+
+} 
+
+/* For 640 Resolution */  
+@media only screen   
+and (min-device-width : 360px)   
+and (max-device-width : 640px)  
+{ /* STYLES GO HERE */
+    #test {
+        display: flex !important;
+        /* padding-top: 200px; */
+        flex-direction: column !important;
+        background-color: red;
+    }
+
+    .div1 {
+        background-color: red;
+    }
+
+    .container-item {
+        width : 640px !important
+    }
+}  
+
+/* For 1024 Resolution */  
+@media only screen   
+and (min-device-width : 768px)   
+and (max-device-width : 1024px)  
+{ /* STYLES GO HERE */}
+
+/* For 1366 Resolution */  
+@media only screen   
+and (min-width: 1030px)   
+and (max-width: 1366px)  
+{ /* STYLES GO HERE */}  
+
