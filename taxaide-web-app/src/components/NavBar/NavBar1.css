@@ -1,0 +1,141 @@
+
+NavLink::hover {
+    text-decoration: none;
+}
+
+
+
+
+.leftNavLinks {
+    justify-content: space-between;
+    display: flex;
+    width: 35%
+}
+
+.logoTaxaide {
+    width: 163px;
+    height: 64.19px;
+}
+
+.firstViewLinkContainer {
+    margin-top: 25px;
+    margin-left: 10px;
+    font-weight: 600;
+    color: white;
+    text-decoration: none !important;
+}
+
+.individualViewUnderline {
+    width: 130px;
+    border-bottom: 5px solid #048002;
+    margin-left: -5px; 
+    margin-top: 8px;
+}
+
+#rightNavLinks {
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    float: right !important;
+    margin-right: -280px;
+}
+
+.viewLinkContainer {
+    margin-top: 25px;
+    margin-left: 10px;
+    font-weight: 600;
+    color: #ECF1F0;
+    text-decoration: none !important;
+}
+
+.rightviewLinkContainer {
+    margin: 10px 0 0 5px;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+}
+
+
+.businessesViewUnderline {
+    width: 130px;
+    border-bottom: 5px solid #048002;
+    margin-left: -130px; 
+    margin-top: 5px;
+}
+
+.lastViewLinkContainer {
+    margin-left: 5px;
+    padding: 10px 20px ;
+    background-color:  #048002;
+    text-decoration: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+}
+
+.hamburger {
+    border: 0;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #283b8b;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    position: absolute;
+    right: 20px;
+    transform: translateY(-50%);
+    display: none;
+  }
+  
+  .hamburger:hover {
+    background-color: #2642af;
+  }
+
+
+  /* For 640 Resolution */  
+@media screen      
+and (max-device-width : 640px)  
+{ /* STYLES GO HERE */
+    .hamburger {
+    display: block;
+    border: 0;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #283b8b;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    position: absolute;
+    }
+
+    .leftNavLinks {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 60px; 
+        left: 0;
+        /* width: 640px;
+    }
+
+    .rightNavLinks {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+    }
+
+    #navBar {
+        width: 100px;
+    }
+    NavLink {
+        /* width: 100% */
+
+        
+
+
+    }
+
+    /* #navBar {
+        width: 640px;
+    } */
+} 

@@ -1,7 +1,9 @@
-const Footer = () => {
+
+
+const Component3 = () => {
     return (
         <div>
-           <div className="container">
+            <div className="container">
                 <div className="row">
                     <div className="col-sm">
                     One of three columns
@@ -15,4 +17,4 @@ const Footer = () => {
     )
 }
 
-export default Footer;
+export default Component3;

@@ -1,0 +1,129 @@
+#fix {
+  /* background-color: azure;   */
+}
+
+.component-Border {
+    background-color: #060809;    
+    height: 680px;
+    background-color: white; 
+    padding-top: 50px;
+}
+.headerContainer {
+    text-align: center; 
+    margin-bottom: 80px;;
+
+}
+
+h1, p {
+    /* text-align: center; */
+}
+
+p {
+    font-weight: 400;
+    font-size: 18px;
+    /* line-height: 28.8px; */
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 36px;
+    /* line-height: 36px; */
+}
+
+.cardContainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    height: 388px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+
+    padding-top: 70px 
+}
+
+.cardHeader {
+    width: 334.67px;
+    margin-left: 40px;
+    margin-right: 18px;
+    border-color: grey;
+}
+
+.phoneDiv {
+    background-color: #25A75C;
+    width: 64.31px;
+    height: 87.69px;
+    margin-left: 70px;
+    padding-top: 10px;
+    border-radius: 5px;
+}
+
+/* #vector {
+  
+} */
+
+.floatItemContainer {
+    box-sizing: border-box;
+    position: absolute;
+}
+
+#vector {
+    z-index: 1;
+    left: 109px;
+    border-radius: 5px;
+    max-width: 100%;
+    height: auto;
+}
+
+#Union4 {
+    z-index: 2;
+    left: 142px;
+    bottom: -510px;
+}
+
+#Path2807 {
+    z-index: 3;
+    left: 125px;
+    bottom: -537px;
+}
+
+.shieldDiv {
+    width: 64.31px;
+    height: 87.69px;
+    margin-left: 70px;
+    padding-top: 10px;
+}
+
+#path33 {
+    z-index: 1;
+    right: 751px;
+    bottom: -523px
+}
+
+
+#path28 {
+    z-index: 2;
+    right: 756px;
+    bottom: -510px;
+}
+
+#Ellipse48 {
+   left: 980px; 
+   bottom: -510px;
+}
+
+#Ellipse49 {
+    left: 986px;
+    bottom: -505px;
+}
+
+#Path2460 {
+    left: 995px;
+    bottom: -493px;
+}
+
+#Rectangle419 {
+    left: 998px;
+    bottom: -533px;
+}

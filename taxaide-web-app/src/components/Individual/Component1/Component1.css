@@ -47,8 +47,8 @@ p {
 
 .div1 {
     z-index: 4;
-    top: 170px;
-    right: 400px 
+    bottom: 100px;
+    right: 10px 
 } 
 .div2 {
     z-index: 5;
@@ -57,27 +57,26 @@ p {
 
 .div3 {
     z-index: 3;
-    top: 160px;
-    right: 70px;
+    top: -150px;
+    right: -10px;
 }
 .div4 {
     z-index: 2;
-    top: 150px;
-    right: 420px
+    bottom: 80px;
+    right: 380px
     
 }
 
 .div5 {
     z-index: 4;
-    bottom: -70px;
-    right: 160px;
+    bottom: -190px;
+    right: 70px;
 
 }
 
 .div12 {
-    z-index: 1;
-    bottom: 90px;
-    right: 400px;
+    bottom: -40px;
+    right: 350px;
 }
 
 /* For 480 Resolution */  
@@ -85,11 +84,7 @@ p {
 and (min-device-width : 320px)   
 and (max-device-width : 480px)  
 { 
-    .container {
-        display: flex;
-        /* padding-top: 200px; */
-        flex-direction: column;
-    }
+   
 
 } 
 
@@ -98,20 +93,7 @@ and (max-device-width : 480px)
 and (min-device-width : 360px)   
 and (max-device-width : 640px)  
 { /* STYLES GO HERE */
-    #test {
-        display: flex !important;
-        /* padding-top: 200px; */
-        flex-direction: column !important;
-        background-color: red;
-    }
-
-    .div1 {
-        background-color: red;
-    }
-
-    .container-item {
-        width : 640px !important
-    }
+    
 }  
 
 /* For 1024 Resolution */  
@@ -123,6 +105,30 @@ and (max-device-width : 1024px)
 /* For 1366 Resolution */  
 @media only screen   
 and (min-width: 1030px)   
-and (max-width: 1366px)  
-{ /* STYLES GO HERE */}  
+and (max-width: 3600px)  
+{ /* STYLES GO HERE */
+
+    
+
+}  
+
+/* New with bootstrap */
+
+#containerId {
+    background-color: #060809;
+    width: 100%;
+}
+
+.row {
+    /* position: absolute */
+}
+
+#secureTransaction, #images {
+    position: relative;
+    top: -200px;
+}
+
+#secureTransaction p, #secureTransaction h1 {
+    color: white;
+}
 

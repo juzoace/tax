@@ -1,72 +1,19 @@
-#navBar {
-    display: flex;
-    justify-content: space-between;
-    height: 90px;
-    width: 100%;
-    align-items: center;
-    background: #060809;
-    padding: 0 30px;
-    /* margin-bottom: 50px; */
+#navbar {
+    background-color: #060809 !important;
 }
 
-.textLogo {
-    justify-content: space-between;
-    display: flex;
-    width: 35%
-}
-
-.logoTaxaide {
-    width: 163px;
-    height: 64.19px;
-}
-
-.firstViewLinkContainer{
-    margin-top: 25px;
+#navText {
+    color: white;
+    margin-top: 10px;
     margin-left: 10px;
     font-weight: 600;
     color: white;
-    text-decoration: none;
+    text-decoration: none !important;
 }
 
-.individualViewUnderline {
-    width: 130px;
-    border-bottom: 5px solid #048002;
-    margin-left: -5px; 
-    margin-top: 8px;
-}
-
-#navLinks {
-    display: flex;
-    width: 40%;
-    justify-content: space-between;
-    float: right;
-}
-
-.viewLinkContainer {
-    margin-top: 25px;
-    margin-left: 10px;
-    font-weight: 600;
-    color: #ECF1F0;
-    text-decoration: none;
-}
-
-.rightviewLinkContainer {
-    margin: 10px 0 0 5px;
-    font-weight: 600;
-    color: white;
-    text-decoration: none;
-}
-
-
-.businessesViewUnderline {
-    width: 130px;
-    border-bottom: 5px solid #048002;
-    margin-left: -130px; 
-    margin-top: 5px;
-}
-
-.lastViewLinkContainer {
-    margin-left: 5px;
+#navButton {
+    margin-left: 15px;
+    margin-top: 10px !important;
     padding: 10px 20px ;
     background-color:  #048002;
     text-decoration: none;
@@ -75,3 +22,13 @@
     font-weight: 600;
 }
 
+@media screen      
+and (max-device-width : 640px)  
+{
+    .navbar-toggler {
+        color: white !important;
+    }
+}
+.navbar-toggler {
+    color: white !important;
+}
