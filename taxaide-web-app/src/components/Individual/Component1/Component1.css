@@ -1,0 +1,134 @@
+.componentBorder {
+    background-color: #060809;    align-items: center;
+    height: 680px;
+}
+
+.container {
+    display: flex;
+    padding-top: 200px;
+    
+    /* position: relative; */
+}
+
+.container-item {
+    
+    color: #ECF1F0;
+    width: 570px;
+    padding-left: 70px;
+    
+}
+
+h1 {
+    /* font-weight: 400; */
+    font-size: 46px;
+    line-height: 64px;
+}
+
+p {
+    
+}
+
+#container-item-button {
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 20px;
+    padding: 10px 20px ;
+    background-color:  #048002;
+    text-decoration: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+}
+
+#individualCircleContainer {
+    box-sizing: border-box;
+    position: absolute;
+}
+
+.div1 {
+    z-index: 4;
+    bottom: 100px;
+    right: 10px 
+} 
+.div2 {
+    z-index: 5;
+    right: 15px
+}
+
+.div3 {
+    z-index: 3;
+    top: -150px;
+    right: -10px;
+}
+.div4 {
+    z-index: 2;
+    bottom: 80px;
+    right: 380px
+    
+}
+
+.div5 {
+    z-index: 4;
+    bottom: -190px;
+    right: 70px;
+
+}
+
+.div12 {
+    bottom: -40px;
+    right: 350px;
+}
+
+/* For 480 Resolution */  
+@media only screen   
+and (min-device-width : 320px)   
+and (max-device-width : 480px)  
+{ 
+   
+
+} 
+
+/* For 640 Resolution */  
+@media only screen   
+and (min-device-width : 360px)   
+and (max-device-width : 640px)  
+{ /* STYLES GO HERE */
+    
+}  
+
+/* For 1024 Resolution */  
+@media only screen   
+and (min-device-width : 768px)   
+and (max-device-width : 1024px)  
+{ /* STYLES GO HERE */}
+
+/* For 1366 Resolution */  
+@media only screen   
+and (min-width: 1030px)   
+and (max-width: 3600px)  
+{ /* STYLES GO HERE */
+
+    
+
+}  
+
+/* New with bootstrap */
+
+#containerId {
+    background-color: #060809;
+    width: 100%;
+}
+
+.row {
+    /* position: absolute */
+}
+
+#secureTransaction, #images {
+    position: relative;
+    top: -200px;
+}
+
+#secureTransaction p, #secureTransaction h1 {
+    color: white;
+}
+
