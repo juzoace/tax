@@ -60,6 +60,7 @@ p {
     top: -150px;
     right: -10px;
 }
+
 .div4 {
     z-index: 2;
     bottom: 80px;
@@ -100,7 +101,11 @@ and (max-device-width : 640px)
 @media only screen   
 and (min-device-width : 768px)   
 and (max-device-width : 1024px)  
-{ /* STYLES GO HERE */}
+{ /* STYLES GO HERE */
+    #images {
+        /* margin-top: 100px; */
+    }
+}
 
 /* For 1366 Resolution */  
 @media only screen   
@@ -112,11 +117,23 @@ and (max-width: 3600px)
 
 }  
 
+
+@media only screen   
+and (min-width: 1030px)   
+and (max-width: 3600px)  
+{ /* STYLES GO HERE */
+
+    
+
+}  
+
+
 /* New with bootstrap */
 
 #containerId {
     background-color: #060809;
     width: 100%;
+position: relative;
 }
 
 .row {
@@ -132,3 +149,325 @@ and (max-width: 3600px)
     color: white;
 }
 
+
+@media (max-width: 375px) {
+    #images {
+        width: 80%;
+    }
+
+    .div1 {
+        z-index: 4;
+        top: 50px ;
+        left: 90px; 
+    } 
+    .div2 {
+        z-index: 5;
+        right: -55px;
+        top: 70px;
+    }
+    
+    .div3 {
+        z-index: 3;
+        top: 40px;
+        left: 100px;
+    }
+    
+    .div4 {
+        z-index: 2;
+        top: 30px;
+        right: 60px
+        
+    }
+    
+    .div5 {
+        z-index: 4;
+        top: 150px;
+        right: -40px;
+    }
+    
+    .div12 {
+        top: 150px;
+        right: 130px;
+    }
+
+    #secureTransaction, .rightBanner {
+        text-align: center;
+        padding-bottom: 40px;
+    }
+    
+
+    #test {
+        padding-bottom: 230px;
+        
+    
+    }
+}
+
+@media only screen   
+and (min-width: 375px)   
+and (max-width: 425px)  
+{ 
+    
+    #images {
+        width: 50%;
+    }
+
+    
+.div1 {
+    z-index: 4;
+    top: 50px ;
+    left: 90px; 
+} 
+.div2 {
+    z-index: 5;
+    right: 5px;
+    top: 40px;
+}
+
+.div3 {
+    z-index: 3;
+    top: 40px;
+    left: 100px;
+}
+
+.div4 {
+    z-index: 2;
+    top: 30px;
+    right: 40px
+    
+}
+
+.div5 {
+    z-index: 4;
+    top: 100px;
+    right: 0px;
+}
+
+.div12 {
+    top: 90px;
+    right: 150px;
+}
+
+#secureTransaction, .rightBanner {
+    text-align: center;
+}
+
+
+
+}
+
+@media only screen   
+and (min-width: 425px)   
+and (max-width: 768px)  
+{ 
+    
+    #images {
+        width: 80%;
+    }
+
+    
+.div1 {
+    z-index: 4;
+    top: 50px ;
+    left: 170px; 
+} 
+.div2 {
+    z-index: 5;
+    right: 0px;
+    top: 40px;
+}
+
+.div3 {
+    z-index: 3;
+    top: 40px;
+    left: 120px;
+}
+
+.div4 {
+    z-index: 2;
+    top: 30px;
+    right: 180px
+    
+}
+
+.div5 {
+    z-index: 4;
+    top: 200px;
+    right: 25px;
+}
+
+.div12 {
+    top: 200px;
+    left: 10px;
+}
+
+#test {
+    padding-bottom: 230px;
+    
+
+}
+
+#secureTransaction, .rightBanner {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+}
+
+@media only screen   
+and (min-width: 769px)   
+and (max-width: 993px) 
+{
+    #images {
+        width: 80%;
+    } 
+
+    .div1 {
+        z-index: 4;
+        top: 50px ;
+        left: 90px; 
+    } 
+    .div2 {
+        z-index: 5;
+        right: -55px;
+        top: 70px;
+    }
+    
+    .div3 {
+        z-index: 3;
+        top: 40px;
+        left: 100px;
+    }
+    
+    .div4 {
+        z-index: 2;
+        top: 30px;
+        right: 60px
+        
+    }
+    
+    .div5 {
+        z-index: 4;
+        top: 150px;
+        right: -40px;
+    }
+    
+    .div12 {
+        top: 150px;
+        right: 130px;
+    }
+
+    #secureTransaction, .rightBanner {
+        text-align: center;
+        padding-bottom: 40px;
+    }
+
+    .rightBanner {
+        margin-top: -50px
+    }
+    #test {
+        padding-bottom: 230px;
+    }
+
+}
+
+@media only screen   
+and (min-width: 994px)   
+and (max-width: 1198px) 
+{
+    #images {
+        width: 70%;
+    } 
+
+    #secureTransaction, .rightBanner {
+        text-align: center;
+        /* padding-bottom: 40px; */
+    }
+
+    .rightBanner {
+        margin-top: -60px
+    }
+    #test {
+        /* padding-bottom: 230px; */
+    }
+
+    .div1 {
+        z-index: 4;
+        /* bottom: -90px ; */
+        left: 150px; 
+    } 
+    .div2 {
+        z-index: 5;
+        right: -25px;
+        top: 70px;
+    }
+    
+    .div3 {
+        z-index: 3;
+        top: 20px;
+        left: 120px;
+    }
+    
+    .div4 {
+        z-index: 2;
+        top: 20px;
+        right: 180px
+        
+    }
+    
+    .div5 {
+        z-index: 4;
+        top: 200px;
+        right: 25px;
+    }
+    
+    .div12 {
+        z-index: 1;
+        top: 150px;
+        right: 180px;
+    }  
+
+}
+
+@media only screen   
+and (min-width: 1199px)   
+and (max-width: 3600px)
+{
+    #images {
+        width: 100%;
+    } 
+
+    #secureTransaction, .rightBanner {
+        /* text-align: center; */
+        /* padding-bottom: 40px; */
+    }
+
+    .div1 {
+         
+        display: none
+    }
+    
+    .div2 {
+        z-index: 5;
+        right: -95px;
+        /* top: 70px; */
+    }
+
+    .div3 {
+        z-index: 3;
+        /* top: 20px; */
+        right: -40px;
+    }
+
+    .div4 {
+        z-index: 2;
+        /* top: px; */
+        right: 280px  
+    }
+
+    .div12 {
+
+    }
+
+
+}

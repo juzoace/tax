@@ -28,7 +28,24 @@ and (max-device-width : 640px)
     .navbar-toggler {
         color: white !important;
     }
+
+    
 }
 .navbar-toggler {
     color: white !important;
+}
+
+@media screen and (max-device-width: 992px) {
+    
+    #navbarIcon {
+        background-color: rgba(4, 128, 2, 0.8)  !important
+    }
+
+    .hide {
+        display: none !important;
+    }
+
+    #navButton {
+        margin-right: 40px;
+    }
 }

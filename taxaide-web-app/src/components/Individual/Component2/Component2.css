@@ -2,17 +2,7 @@
   /* background-color: azure;   */
 }
 
-.component-Border {
-    background-color: #060809;    
-    height: 680px;
-    background-color: white; 
-    padding-top: 50px;
-}
-.headerContainer {
-    text-align: center; 
-    margin-bottom: 80px;;
 
-}
 
 h1, p {
     /* text-align: center; */
@@ -35,21 +25,6 @@ h1 {
     justify-content: space-around;
 }
 
-.card {
-    height: 388px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border-radius: 10px;
-
-    padding-top: 70px 
-}
-
-.cardHeader {
-    width: 334.67px;
-    margin-left: 40px;
-    margin-right: 18px;
-    border-color: grey;
-}
-
 .phoneDiv {
     background-color: #25A75C;
     width: 64.31px;
@@ -70,60 +45,369 @@ h1 {
 
 #vector {
     z-index: 1;
-    left: 109px;
+    left: 100px;
     border-radius: 5px;
     max-width: 100%;
     height: auto;
 }
 
-#Union4 {
-    z-index: 2;
-    left: 142px;
-    bottom: -510px;
-}
 
-#Path2807 {
-    z-index: 3;
-    left: 125px;
-    bottom: -537px;
-}
 
 .shieldDiv {
     width: 64.31px;
     height: 87.69px;
     margin-left: 70px;
-    padding-top: 10px;
-}
-
-#path33 {
-    z-index: 1;
-    right: 751px;
-    bottom: -523px
+    padding-top: 50px;
 }
 
 
-#path28 {
-    z-index: 2;
-    right: 756px;
-    bottom: -510px;
-}
 
-#Ellipse48 {
-   left: 980px; 
-   bottom: -510px;
-}
 
-#Ellipse49 {
-    left: 986px;
-    bottom: -505px;
-}
 
 #Path2460 {
     left: 995px;
     bottom: -493px;
 }
 
+
+
+
+/* After adding Bootstrap */
+.componentBorder {
+    background-color: white; 
+    padding-top: 50px;
+}
+.headerContainer {
+    text-align: center; 
+    margin-bottom: -90px;
+}
+
+#cardParent {
+    align-items: center;
+}
+
+#cardBorder {
+    /* margin-left: 20px; */
+    height: 388px;
+}
+
+#left {
+    padding-right: -5px;
+}
+
+#center {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#right {
+    
+}
+
+#Union4 {
+    z-index: 2;
+    left: 133px;
+    bottom: 250px;
+    background-color: red;
+}
+
+#Path2807 {
+    z-index: 3;
+    left: 125px;
+    bottom: 107px;
+}
+
+.card {
+    padding-top: 50px;
+    height: 388px;
+}
+
+#cardTitleFix {
+    padding-top: 50px;
+    padding-left: 30px;
+}
+
+#cardTextFix {
+    padding-left: 30px;
+}
+
+#path33 {
+    z-index: 1;
+    right: 241px;
+    bottom: 225px
+}
+
+
+#path28 {
+    z-index: 2;
+    right: 246px;
+    bottom: 240px;
+}
+
+#Ellipse48 {
+    left: 55px; 
+    bottom: 270px;
+ }
+ 
+ #Ellipse49 {
+     left: 60px;
+     bottom: 275px;
+}
+
+#Path2460 {
+    left: 70px;
+    bottom: 290px;
+}
+
+#Ellipse6 {
+    z-index: 5;
+    left: 85px;
+    bottom: 265px;
+}
+
 #Rectangle419 {
-    left: 998px;
-    bottom: -533px;
+    left: 67px;
+    bottom: 258px;
+}
+
+/*  Media query */
+
+@media (max-width: 375px) {
+    #path33 {
+        z-index: 1;
+        right: 202px;
+        bottom: 225px
+    }
+    
+    
+    #path28 {
+        z-index: 2;
+        right: 207px;
+        bottom: 240px;
+    }
+}
+
+@media only screen   
+and (min-width: 375px)   
+and (max-width: 425px)  {
+
+    #path33 {
+        z-index: 1;
+        right: 252px;
+        bottom: 225px
+    }
+    
+    
+    #path28 {
+        z-index: 2;
+        right: 258px;
+        bottom: 240px;
+    }
+}
+
+@media only screen   
+and (min-width: 425px)   
+and (max-width: 768px) {
+    
+    .card {
+        padding-bottom: 500px !important;
+    }
+
+    #Union4 {
+        z-index: 2;
+        left: 43px;
+        bottom: 38px;
+        /* background-color: red; */
+    }
+    
+    #Path2807 {
+        z-index: 3;
+        left: 120px;
+        bottom: 107px;
+    }
+
+    
+    #vector {
+        z-index: 1;
+        left: 10px;
+        top: 10px;
+    }
+
+    .phoneDiv {
+        position: relative;
+        top: 30px;
+        left: -20px;
+    }
+
+    #path33 {
+        z-index: 1;
+        right: 101px;
+        bottom: 390px
+    }
+    
+    
+    #path28 {
+        z-index: 2;
+        right: 107px;
+        bottom: 405px
+    }
+
+    #path32 {
+        z-index: 0;
+        right: 257px;
+        bottom: 240px;
+    }
+
+    .littleTittleFix {
+        margin-top: 38px !important;
+    }
+
+    #Ellipse48 {
+        left: 55px; 
+        bottom: 400px;
+     }
+     
+     #Ellipse49 {
+         left: 60px;
+         bottom: 405px;
+    }
+    
+    #Path2460 {
+        left: 70px;
+        bottom: 420px;
+    }
+    
+    #Ellipse6 {
+        z-index: 5;
+        left: 90px;
+        bottom: 388px;
+    }
+
+    #Path61 {
+        z-index: 5;
+        left: 75px;
+        bottom: 389px;
+    }
+
+    #Rectangle419 {
+         z-index: 5;
+        left: 71px;
+        bottom: 385px;
+    }
+
+    #Ellipse7 {
+        z-index: 5;
+        left: 71px;
+        bottom: 385px;
+    }
+
+    #Ellipse8 {
+
+    }
+
+
+    
+    #cardBorder {
+        padding-top: 40px !important;
+    }
+}
+
+@media only screen   
+and (min-width: 769px)   
+and (max-width: 993px) {
+
+    /* #left {
+        height: 500px !important;
+        padding-bottom: 50px
+    } */
+    
+
+    .card {
+        padding-bottom: 550px !important;
+    }
+
+    .phoneDiv {
+        background-color: #25A75C;
+        width: 64.31px;
+        height: 87.69px;
+        margin-left: 70px;
+        margin-top: 10px;
+        padding-top: 10px;
+        border-radius: 5px;
+    }
+
+    #Union4 {
+        z-index: 6;
+        left: 133px;
+        bottom: 460px;
+        /* background-color: red; */
+    }
+
+    #path33 {
+        z-index: 1;
+        right: 102px;
+        bottom: 439px
+    }
+    
+    #path28 {
+        z-index: 2;
+        right: 108px;
+        bottom: 453px
+    }
+
+    .littleTittleFix {
+        margin-top: 38px !important;
+    }
+
+    #Ellipse48 {
+        left: 55px; 
+        bottom: 460px;
+     }
+     
+     #Ellipse49 {
+         left: 62px;
+         bottom: 465px;
+    }
+    
+    #Path2460 {
+        left: 71px;
+        bottom: 477px;
+    }
+    
+    #Path61 {
+        left: 79px;
+        bottom: 449px; 
+    }
+
+    #Rectangle419 {
+        left: 75px;
+        bottom: 445px;
+    }
+
+    #Ellipse6 {
+        left: 95px;
+        bottom: 449px;
+    }
+
+}
+
+@media only screen   
+and (min-width: 994px)   
+and (max-width: 1198px) 
+{
+
+    #path33 {
+        z-index: 1;
+        right: 182px;
+        bottom: 225px
+    }
+    
+    
+    #path28 {
+        z-index: 2;
+        right: 187px;
+        bottom: 238px
+    }
+
+    
 }

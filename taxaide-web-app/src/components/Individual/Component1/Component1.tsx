@@ -10,43 +10,43 @@ const Component1 = () => {
     return (
         <div id="containerId">
             <div  className='container'>
-            <div id= 'test' className='container row'>
+                <div id= 'test' className='container row'>
 
-                <div id="secureTransaction" className=' col-sm'>
-                    <h1>Secure & seamless <br></br>online transactions</h1>
-                    <p>Providing you with the best online payment experience</p>
-                    <button id= "container-item-button" >Create free account</button>
-                </div>
+                    <div id="secureTransaction" className='col-sm-12 col-12 col-md-6'>
+                        <h1>Secure & seamless <br></br>online transactions</h1>
+                        <p>Providing you with the best online payment experience</p>
+                        <button id= "container-item-button" >Create free account</button>
+                    </div>
 
-                <div id="images" className='col-sm-12 col-12'>
+                    <div className='col-sm-12 col-12 col-md-6 rightBanner'>
 
-                <div >
-                    <img  src={Ellipse1} alt='Taxaide' className="img-responsive div1"/>
-                </div>
+                        <div id='individualCircleContainer'>
+                            <img id="images" src={Ellipse1} alt='Taxaide' className="img-responsive div1"/>
+                        </div>
 
-                <div id='individualCircleContainer' className='img-responsive div4'>
-                    <img  src={Ellipse4} alt='Taxaide'/>
-                </div>
-                   
-                <div id='individualCircleContainer' className='img-responsive div2'>
-                    <img src={Ellipse2} alt='Taxaide' />
-                </div>
+                        <div id='individualCircleContainer' className='img-responsive div4'>
+                            <img id="images" src={Ellipse4} alt='Taxaide'/>
+                        </div>
+                        
+                        <div id='individualCircleContainer' className='img-responsive div2'>
+                            <img id="images" src={Ellipse2} alt='Taxaide' />
+                        </div>
 
-                <div id='individualCircleContainer' className='img-responsive div3'>
-                        <img  src={Ellipse3} alt='Taxaide'/>                             
-                </div>
+                        <div id='individualCircleContainer' className='img-responsive div3'>
+                                <img id="images" src={Ellipse3} alt='Taxaide'/>                             
+                        </div>
 
-                <div id='individualCircleContainer' className='img-responsive div12'>
-                    <img  src={Ellipse12} alt='Taxaide'/>
-                </div>
+                        <div id='individualCircleContainer' className='img-responsive div12'>
+                            <img id="images" src={Ellipse12} alt='Taxaide'/>
+                        </div>
 
-                <div id='individualCircleContainer' className='img-responsive div5'>
-                    <img  src={Ellipse5} alt='Taxaide'/>
-                </div>   
-                    
+                        <div id='individualCircleContainer' className='img-responsive div5'>
+                            <img id="images" src={Ellipse5} alt='Taxaide'/>
+                        </div>   
+                        
+                    </div>
                 </div>
             </div>
-        </div>
         </div>
         
     )

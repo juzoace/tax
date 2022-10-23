@@ -1,0 +1,207 @@
+
+
+.cardGroupContainer {
+    width: 50%;
+}
+
+.cardGroup {
+    
+    /* border-radius: 20px !important; */
+    border: none !important;
+    /* padding-bottom: 50px !important; */
+}
+
+.individualComponent3Border {
+    
+}
+
+#SelectCardItem {
+    width: 491.5px !important;
+    padding-left: 20px;
+    padding-top: 20px;
+    border-left: 10px solid #25A75C;
+    
+}
+
+#UnselectCardItem {
+    width: 491.5px !important;
+    padding-left: 20px;
+    padding-top: 20px;
+    border-left: 10px solid #f1f1f1;
+   
+}
+#cardItem :active {
+    border-left: 10px solid;
+}
+
+.lastItem {
+    /* padding-bottom: 50px; */
+}
+
+#PayBillBackground {
+    /* width: 605px;
+    height: 611px; */
+}
+
+#PayBill {
+    /* width: 575px;
+    height: 517px; */
+    
+}
+
+#cardImage1 {
+    position: absolute;
+    top: -43px;
+    left: 25px;
+}   
+
+#cardImage2 {
+    position: absolute;
+    top: 18px; 
+    left: 81px;
+}
+
+
+
+#AirtiimeBundlesBackground {
+    /* width: 609px;
+    height: 611px; */
+}
+
+#AirtimeBundles {
+    
+}
+
+#cardImage3 {
+    position: absolute;
+    top: -40px;
+    left: 25px; 
+}
+
+#cardImage4 {
+    position: absolute;
+    top: 80px; 
+    left: 130px;
+}
+
+
+
+#MoneyTransferBackground {
+   
+}
+
+#MoneyTransfer {
+
+}
+
+#cardImage5 {
+    position: absolute;
+    top: -40px; 
+    left: 25px;
+    z-index: 2;
+}
+
+#cardImage6 {
+    position: absolute;
+    top: 30px; 
+    left: 120px;
+    z-index: 4;
+}
+
+#TollFeeBackground {
+
+}
+
+#TollFee {
+
+}
+
+#cardImage7 {
+    position: absolute;
+    top: -30px; 
+    left: 16px;
+}
+
+#cardImage8 {
+    position: absolute;
+    top: 30px; 
+    left: 73px;
+}
+
+/* Media Queries */
+@media (max-width: 375px) {
+    #individualComponent3Container {
+        /* display: flex;
+        flex-direction: row; */
+        display: block;
+    }
+}
+
+@media only screen   
+and (min-width: 375px)   
+and (max-width: 574px)  {
+    #individualComponent3Container {
+        /* display: flex;
+        flex-direction: row; */
+        display: block;
+    }
+}
+
+@media only screen   
+and (min-width: 575px)   
+and (max-width: 768px) {
+    #individualComponent3Container {
+        /* display: flex; */
+        /* flex-direction: row; */
+        display: block;
+    }
+
+    #leftCardResponsive {
+        margin-bottom: 80px;
+        /* position: absolute; */
+
+    }
+
+    #rightCardResponsive {
+        /* margin-left: -90px;
+         */
+         width: 100%;
+         overflow: hidden;
+    }
+}
+
+@media only screen   
+and (min-width: 769px)   
+and (max-width: 993px) {
+    #individualComponent3Container {
+        display: block;
+        /* flex-direction: row; */
+    }
+}
+
+@media only screen   
+and (min-width: 994px)   
+and (max-width: 1198px) 
+{
+
+    .individualComponent3Border {
+        margin-top: -40px;
+    }
+
+    #individualComponent3Container {
+        display: block;
+        /* flex-direction: row; */   
+    }
+
+    #leftCardResponsive {
+        position: absolute;
+        left: 300px;
+        text-align: center;
+    }
+
+    #rightCardResponsive {
+    position: absolute;
+    bottom: -1600px; 
+    left: 210px;
+    }
+}
