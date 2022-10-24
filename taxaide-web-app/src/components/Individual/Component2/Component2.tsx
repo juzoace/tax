@@ -49,14 +49,14 @@ const Component2 = () => {
                         <div id="center" className="card">
                             
                             <div className="shieldDiv">
-                                <img id="path32" className="" src={Path32}/>
+                                <img id="path32" className="floatItemContainer" src={Path32}/>
                                 <img id="path33" className="floatItemContainer" src={Path28}/>
                                 <img id="path28" className="floatItemContainer" src={Path33}/>
                             </div>
 
                             <div className="card-body">
-                                <h5 id="cardTitleFix" className="card-title">Secure</h5>
-                                <p id="cardTextFix" className="card-text">Your data is secure. It is continuously monitored, audited, and stored in an encrypted form.</p>
+                                <h5 id="cardTitleFix" className="card-title extraFix">Secure</h5>
+                                <p id="cardTextFix" className="card-text ">Your data is secure. It is continuously monitored, audited, and stored in an encrypted form.</p>
                             </div>
                             
                         </div>

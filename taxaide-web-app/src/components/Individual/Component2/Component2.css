@@ -189,9 +189,10 @@ h1 {
 
 @media only screen   
 and (min-width: 375px)   
-and (max-width: 425px)  {
+and (max-width: 574px)  {
 
     #path33 {
+        display: none;
         z-index: 1;
         right: 252px;
         bottom: 225px
@@ -202,16 +203,31 @@ and (max-width: 425px)  {
         z-index: 2;
         right: 258px;
         bottom: 240px;
+        display: none;
     }
+
+
 }
 
+/* and (min-width: 575px)   
+and (max-width: 768px)   */
+
 @media only screen   
-and (min-width: 425px)   
+and (min-width: 575px)   
 and (max-width: 768px) {
     
     .card {
         padding-bottom: 500px !important;
     }
+
+    .phoneDiv {
+    background-color: #25A75C;
+    width: 64.31px;
+    height: 87.69px;
+    margin-left: 50px;
+    padding-top: 10px;
+    border-radius: 5px;
+}
 
     #Union4 {
         z-index: 2;
@@ -239,23 +255,30 @@ and (max-width: 768px) {
         left: -20px;
     }
 
+    .extraFix {
+        margin-top: 38px;
+    }
+
     #path33 {
         z-index: 1;
-        right: 101px;
+        right: 68px;
         bottom: 390px
     }
     
     
     #path28 {
         z-index: 2;
-        right: 107px;
+        right: 73px;
         bottom: 405px
     }
 
     #path32 {
-        z-index: 0;
-        right: 257px;
-        bottom: 240px;
+        /* z-index: 0;
+        left: 257px;
+        bottom: 240px; */
+        /* display: none; */
+       margin-left: -25px;
+       margin-bottom: 20px !important;
     }
 
     .littleTittleFix {
@@ -310,11 +333,19 @@ and (max-width: 768px) {
     #cardBorder {
         padding-top: 40px !important;
     }
+
+    #cardTitleFix {
+        margin-left: -28px
+    }
+
+    #cardTextFix {
+        margin-left: -28px
+    }
 }
 
 @media only screen   
 and (min-width: 769px)   
-and (max-width: 993px) {
+and (max-width: 994px) {
 
     /* #left {
         height: 500px !important;
@@ -387,6 +418,10 @@ and (max-width: 993px) {
     #Ellipse6 {
         left: 95px;
         bottom: 449px;
+    }
+
+    .extraFix {
+        margin-top: 45px;
     }
 
 }

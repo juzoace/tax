@@ -1,0 +1,71 @@
+.individualComponent4Border {
+    margin-top: 350px;
+    width: auto;
+    text-align: center;
+}
+
+#banner {
+    width: 1190px
+}
+
+@media (max-width: 375px) {}
+
+@media only screen   
+and (min-width: 375px)   
+and (max-width: 574px)  {
+    .individualComponent4Border {
+        margin-top: -20px;
+        text-align: center;
+    }
+
+    #banner {
+        width: 80%;
+        position: absolute;
+        bottom: -3350px;
+        left: 40px;
+    }
+}
+
+@media only screen   
+and (min-width: 575px)   
+and (max-width: 769px) {
+
+    .individualComponent4Border {
+        margin-top: 40px;
+        text-align: center;
+    }
+
+    #banner {
+        width: 75%;
+        /* margin-bottom: 40px; */
+    }
+
+}
+
+@media only screen   
+and (min-width: 770px)   
+and (max-width: 994px) {
+
+    .individualComponent4Border {
+        margin-top: 100px;
+        text-align: center;
+    }
+
+    #banner {
+        width: 75%
+    }
+}
+
+@media only screen   
+and (min-width: 994px)   
+and (max-width: 1198px) {
+    .individualComponent4Border {
+        margin-top: 1500px;
+        text-align: center;
+    }
+
+    #banner {
+        width: 75%
+    }
+    
+}

@@ -89,13 +89,7 @@ and (max-device-width : 480px)
 
 } 
 
-/* For 640 Resolution */  
-@media only screen   
-and (min-device-width : 360px)   
-and (max-device-width : 640px)  
-{ /* STYLES GO HERE */
-    
-}  
+
 
 /* For 1024 Resolution */  
 @media only screen   
@@ -107,25 +101,7 @@ and (max-device-width : 1024px)
     }
 }
 
-/* For 1366 Resolution */  
-@media only screen   
-and (min-width: 1030px)   
-and (max-width: 3600px)  
-{ /* STYLES GO HERE */
 
-    
-
-}  
-
-
-@media only screen   
-and (min-width: 1030px)   
-and (max-width: 3600px)  
-{ /* STYLES GO HERE */
-
-    
-
-}  
 
 
 /* New with bootstrap */
@@ -208,10 +184,18 @@ and (min-width: 375px)
 and (max-width: 425px)  
 { 
     
+    #container-item-button {
+        margin-bottom: 40px;
+    }
+
     #images {
         width: 50%;
     }
 
+    #individualCircleContainer {
+        box-sizing: border-box;
+        position: absolute;
+    }
     
 .div1 {
     z-index: 4;
@@ -252,6 +236,11 @@ and (max-width: 425px)
     text-align: center;
 }
 
+#test {
+    padding-bottom: 120px;
+    padding-top: 120px;
+    /* padding-left: 200px; */
+}
 
 
 }

@@ -1,0 +1,154 @@
+@import url('http://fonts.cdnfonts.com/css/poppins');
+
+.footerComponentContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 120px;
+    padding-bottom: 40px;
+    position: absolute;
+    bottom: -3090px;
+}
+
+.footerRightCard {
+    display: flex;
+    /* padding-left: 270px */
+    /* text-align: right; */
+    /* float: right; */
+    /* padding-left: 300px; */
+}
+
+.footerLeftCard {
+    padding-left: 130px
+}
+
+.footerLogo {
+    padding-bottom: 50px;
+}
+
+.footerSocialMediaLogos {
+    padding-bottom: 20px;
+}
+
+.footerSocialMediaLogos span {
+    margin-right: 30px;
+}
+
+.footerLogoText p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #b3b3b3;                                            
+}
+
+.leftFooterLogoLinks ul {
+    list-style-type: none;
+}
+
+.leftFooterLogoLinks ul li {
+    padding: 10px
+}
+
+.rightFooterLogoLinks ul li { 
+    padding: 10px
+}
+
+.rightFooterLogoLinks ul {
+    list-style-type: none;
+}
+
+
+
+.rightFooterLogoLinks ul li {
+    color: #b3b3b3
+}
+
+.leftFooterLogoLinks ul li {
+    color: #b3b3b3;
+}
+
+.leftFooterLogoLinks ul li:first-child {
+    font-weight: 700;
+    font-size: 18px;
+    color: black
+}
+
+.rightFooterLogoLinks ul li:first-child {
+    font-weight: 700;
+    font-size: 18px;
+    color: black;
+}
+
+/* Media Queries */
+@media (max-width: 375px) {
+
+}
+
+@media only screen   
+and (min-width: 375px)   
+and (max-width: 574px)  {
+    .footerComponentContainer {
+        position: absolute;
+        display: block;
+        top: 3900px
+    }
+
+    .footerRightCard {
+        /* text-align: center; */
+        /* padding-right: 20px; */
+    }
+
+    .leftFooterLogoLinks {
+        position: absolute;
+        left: 10%
+    }
+
+    .rightFooterLogoLinks {
+        position: absolute;
+        left: 50%
+    }
+}
+
+@media only screen   
+and (min-width: 575px)   
+and (max-width: 768px) {
+    .footerComponentContainer {
+        width: 80%;
+        padding-top: 40px;
+    }
+}
+
+@media only screen 
+and (min-width: 769px)   
+and (max-width: 993px) {
+    .footerComponentBorder {
+        position: absolute;
+        top: 900px;
+        width: 600px;
+    }
+
+    .footerRightCard {
+        /* padding-right: -50px; */
+    }
+}
+
+@media only screen   
+and (min-width: 994px)   
+and (max-width: 1198px) 
+{
+    
+}
+
+@media only screen   
+and (min-width: 1198px)   
+and (max-width: 5000px) {
+    
+.footerRightCard {
+    display: flex;
+    padding-left: 300px
+}
+
+.footerLeftCard {
+    padding-left: 150px
+}
+
+}

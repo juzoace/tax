@@ -19,8 +19,7 @@
     width: 491.5px !important;
     padding-left: 20px;
     padding-top: 20px;
-    border-left: 10px solid #25A75C;
-    
+    border-left: 10px solid #25A75C; 
 }
 
 #UnselectCardItem {
@@ -39,13 +38,16 @@
 }
 
 #PayBillBackground {
-    /* width: 605px;
-    height: 611px; */
+    width: 605px;
+    height: 611px;
+    margin-left: -40px;
 }
 
 #PayBill {
-    /* width: 575px;
-    height: 517px; */
+    width: 575px;
+    height: 584px;
+    margin-left: -33px
+    /* left: -4px */
     
 }
 
@@ -66,10 +68,16 @@
 #AirtiimeBundlesBackground {
     /* width: 609px;
     height: 611px; */
+
+    width: 605px;
+    height: 611px;
+    margin-left: -40px;
 }
 
 #AirtimeBundles {
-    
+    width: 450px;
+    height: 517px;
+    margin-left: -40px
 }
 
 #cardImage3 {
@@ -80,18 +88,22 @@
 
 #cardImage4 {
     position: absolute;
-    top: 80px; 
-    left: 130px;
+    top: 30px; 
+    left: 110px;
 }
 
 
 
 #MoneyTransferBackground {
-   
+    width: 605px;
+    height: 611px;
+    margin-left: -40px;
 }
 
 #MoneyTransfer {
-
+    width: 450px;
+    height: 517px;
+    margin-left: -40px
 }
 
 #cardImage5 {
@@ -103,17 +115,21 @@
 
 #cardImage6 {
     position: absolute;
-    top: 30px; 
-    left: 120px;
+    top: 20px; 
+    left: 110px;
     z-index: 4;
 }
 
 #TollFeeBackground {
-
+    width: 605px;
+    height: 611px;
+    margin-left: -40px;
 }
 
 #TollFee {
-
+    width: 450px;
+    height: 517px;
+    margin-left: -40px
 }
 
 #cardImage7 {
@@ -124,8 +140,8 @@
 
 #cardImage8 {
     position: absolute;
-    top: 30px; 
-    left: 73px;
+    top: 80px; 
+    left: 197px;
 }
 
 /* Media Queries */
@@ -140,31 +156,153 @@
 @media only screen   
 and (min-width: 375px)   
 and (max-width: 574px)  {
+    
     #individualComponent3Container {
         /* display: flex;
         flex-direction: row; */
         display: block;
+        /* margin-top: 1200px;; */
     }
+
+    .individualComponent3Border {
+        margin-top: 700px !important;
+        
+    }
+
+    #leftCardResponsive {
+        margin-bottom: 180px;
+        
+        
+    }
+
+
+    #cardImage2 {
+        position: absolute;
+        top: 15px; 
+        left: 65px;
+    }
+
+    #PayBillBackground {
+        width: 200%;
+        height: 150%;
+    }
+
+    #PayBill {
+        width: 200px;
+        height: 200px
+        
+    }
+
+    #cardImage4 {
+        position: absolute;
+        top: 42px; 
+        left: 88px;
+    }
+
+    #AirtiimeBundlesBackground {
+        width: 200%;
+        height: 150%;
+    }
+
+    #AirtimeBundles {
+        width: 200px;
+        height: 200px
+    }
+
+    #cardImage6 {
+        position: absolute;
+        top: 35px; 
+        left: 75px;
+    }
+
+    #MoneyTransferBackground {
+        width: 200%;
+        height: 150%;
+    }
+
+    #MoneyTransfer {
+        width: 200px;
+        height: 200px
+    }
+
+    #cardImage8 {
+        position: absolute;
+        top: 40px; 
+        left: 70px;
+    }
+
+    #TollFeeBackground {
+        width: 200%;
+        height: 150%;
+    }
+
+    #TollFee {
+        width: 200px;
+        height: 200px
+    }
+
+    #SelectCardItem {
+        
+        width: 340px !important;
+    }
+
+    #UnselectCardItem {
+        width: 340px !important;
+    }
+
+
+    #SelectCardItem h1 {
+        font-size: 1.5rem !important;
+    }
+
+
+    #SelectCardItem p {
+        font-size: 1.0rem;
+    }
+
+    #UnselectCardItem h1 {
+        font-size: 1.0rem;
+    }
+
+    #UnselectCardItem p {
+        font-size: 0.5rem;
+    }
+
+    .cardImageParent {
+        align-items: center;
+    }
+
+    /* #leftCardResponsive {
+        position: absolute;
+        left: 220px;
+        text-align: center;
+    } */
+
+    #rightCardResponsive {
+        position: absolute;
+        left: 30px;
+        top: -50px
+    }
+
+    #banner {
+        position: absolute;
+        bottom: -2800px
+    }
+
 }
 
 @media only screen   
 and (min-width: 575px)   
 and (max-width: 768px) {
     #individualComponent3Container {
-        /* display: flex; */
-        /* flex-direction: row; */
         display: block;
     }
 
     #leftCardResponsive {
         margin-bottom: 80px;
-        /* position: absolute; */
-
     }
 
     #rightCardResponsive {
-        /* margin-left: -90px;
-         */
          width: 100%;
          overflow: hidden;
     }
@@ -195,13 +333,13 @@ and (max-width: 1198px)
 
     #leftCardResponsive {
         position: absolute;
-        left: 300px;
+        left: 220px;
         text-align: center;
     }
 
     #rightCardResponsive {
     position: absolute;
-    bottom: -1600px; 
-    left: 210px;
+    bottom: -1150px !important; 
+    left: 185px;
     }
 }
